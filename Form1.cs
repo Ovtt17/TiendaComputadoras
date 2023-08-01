@@ -97,7 +97,6 @@ namespace Tienda
             
         }
         
-
         private void Limpiar()
         {
             cmbMarca.SelectedIndex = -1;

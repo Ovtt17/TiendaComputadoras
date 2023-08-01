@@ -143,6 +143,7 @@
             // btnGuardar
             // 
             this.btnGuardar.BackColor = System.Drawing.Color.Green;
+            this.btnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.btnGuardar.ForeColor = System.Drawing.SystemColors.Control;
             this.btnGuardar.Location = new System.Drawing.Point(60, 427);
@@ -157,6 +158,7 @@
             // btnBorrar
             // 
             this.btnBorrar.BackColor = System.Drawing.Color.Red;
+            this.btnBorrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnBorrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.btnBorrar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnBorrar.Location = new System.Drawing.Point(245, 427);
@@ -197,6 +199,8 @@
             // 
             // cmbMarca
             // 
+            this.cmbMarca.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cmbMarca.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.cmbMarca.FormattingEnabled = true;
             this.cmbMarca.Items.AddRange(new object[] {
@@ -213,6 +217,8 @@
             // 
             // cmbEstado
             // 
+            this.cmbEstado.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cmbEstado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.cmbEstado.FormattingEnabled = true;
             this.cmbEstado.Items.AddRange(new object[] {
@@ -226,6 +232,8 @@
             // 
             // cmbArquitectura
             // 
+            this.cmbArquitectura.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cmbArquitectura.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbArquitectura.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.cmbArquitectura.FormattingEnabled = true;
             this.cmbArquitectura.Items.AddRange(new object[] {
@@ -239,6 +247,8 @@
             // 
             // cmbMemoriaExpandible
             // 
+            this.cmbMemoriaExpandible.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cmbMemoriaExpandible.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbMemoriaExpandible.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.cmbMemoriaExpandible.FormattingEnabled = true;
             this.cmbMemoriaExpandible.Items.AddRange(new object[] {
